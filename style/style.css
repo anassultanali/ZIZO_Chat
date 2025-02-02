@@ -15,8 +15,108 @@ body{
     background: #f7f7f7;
 }
 .wrapper{
-    background: #FFF;
+    background: #1d1b1b;
     width: 450px;
-    border-radius: 16px;
+    border-radius: 50px 0 0 0 ;
     box-shadow: 0 0 100px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* ------------------------------------------signin form */
+
+.form {
+    padding: 25px 30px;
+   
+}
+.form header{
+    
+    color: #e0aa3e ;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom:20px;
+    padding-bottom: 10px;
+    
+}
+.form form{
+    border-right: 3px solid #e0aa3e;
+    border-bottom: 3px solid #e0aa3e;
+    padding:20px ;
+    transition: ease 0.5s;
+}
+.form form:hover{
+    box-shadow: 10px 10px 10px  #e0aa3e33;
+
+}
+.form form .error-txt{
+    color: #721c24;
+    background: #f8d7da;
+    padding: 8px 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #f5c6cd;
+
+}
+.form form .name-details{
+    display: flex; 
+    
+}
+form .name-details .field:first-child{
+    margin-right: 15px ;
+}
+form .name-details .field:last-child{
+    margin-left: 10px ;
+
+
+}
+.form form .field{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.form form .field label{
+    color: #e0aa3e;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+.form form .field input{
+    outline: none;
+    border: none;
+}
+.form form .input input{
+    height: 40px;
+    width: 100%;
+    color: #FFF; 
+    font-size: 16px;
+    padding: 5px 10px;
+    background: #0b0b0b;
+    border-bottom: 2px solid #e0aa3e;
+    border-radius: 5px; 
+    transition: ease-out 0.3s;
+    
+}
+.form form .input input:focus{
+    border: 1px solid #e0aa3e;
+
+}
+.form form .image input{
+    font-size: 15px;
+    color: #e0aa3e;
+    
+}
+.form form .button input{
+    margin-top: 10px;
+    height: 35px;
+    font-size: 20px;
+    background: #1d1b1b;
+    color: #e0aa3e;
+    border: 2px solid #e0aa3e;
+    border-radius: 5px ;
+    transition: ease 0.5s;
+
+
+}
+.form form .button input:hover{
+    background: #e0aa3e;
+    color: #1d1b1b;
+    cursor: pointer;
 }
