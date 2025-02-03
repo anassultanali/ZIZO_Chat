@@ -91,7 +91,7 @@ form .name-details .field:last-child{
     background: #0b0b0b;
     border-bottom: 2px solid #e0aa3e;
     border-radius: 5px; 
-    transition: ease-out 0.3s;
+    transition: ease-out 0.5s;
     
 }
 .form form .input input:focus{
@@ -104,10 +104,10 @@ form .name-details .field:last-child{
     
 }
 .form form .button input{
-    margin-top: 10px;
+    margin: 20px 0;
     height: 35px;
     font-size: 20px;
-    background: #1d1b1b;
+    background: #0b0b0b;
     color: #e0aa3e;
     border: 2px solid #e0aa3e;
     border-radius: 5px ;
@@ -119,4 +119,10 @@ form .name-details .field:last-child{
     background: #e0aa3e;
     color: #1d1b1b;
     cursor: pointer;
+}
+.link{
+    color: #e0aa3e;
+}
+.link a{
+    color: #FFF;
 }
