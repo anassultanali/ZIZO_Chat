@@ -128,3 +128,50 @@ form .name-details .field:last-child{
 }
 
 /* ------------------------------------------------users  */
+
+
+.users{
+    padding: 25px 30px;
+
+}
+.users header{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    border-bottom: 2px solid #e0aa3e;
+
+}
+.wrapper img{
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+.users header .content{
+    display: flex;
+}
+.users header .content img{
+    height: 50px;
+    width: 50px;
+}
+.users header .details{
+    color: #FFF;
+    margin-left: 15px;
+}
+.users header .details span{
+    font-size: 18px;
+    font-weight: 500;
+}
+.users header .logout{
+    border: 2px solid #e0aa3e;
+    color: #e0aa3e;
+    border-radius: 5px;
+    padding: 5px;
+    transition: ease 0.5s;
+}
+.users header .logout:hover{
+    background: #e0aa3e;
+    color: #1d1b1b;
+    
+
+}
