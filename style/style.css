@@ -175,3 +175,31 @@ form .name-details .field:last-child{
     
 
 }
+.users .search input{
+    height: 42px;
+    width: calc(100% - 50px);
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px 0px 0 20px;
+    border: 2px solid #e0aa3e ;
+    outline: none;
+}
+.users .search button{
+    height: 43px;
+    width: 45px;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #e0aa3e;
+    background: #1d1b1b;
+    border: 2px solid #e0aa3e;
+    border-radius:0 20px 20px 0 ;
+    cursor: pointer;
+    transition: ease 0.5s;
+}
+.users .search button:hover{
+    background: #e0aa3e;
+    color: #1d1b1b;
+
+}
